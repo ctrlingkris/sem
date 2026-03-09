@@ -1,6 +1,6 @@
 class PasswordValidator {
 public static void main(String[] args) {
-String pwd = "Krish@12"; 
+String pwd = "Krish12"; 
 if (pwd.length() >= 8 &&
 !pwd.contains(" ") &&
 pwd.matches(".*[A-Z].*") &&
@@ -13,3 +13,4 @@ System.out.println("Password does not meet requirements.");
 }
 }
 }
+
